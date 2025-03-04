@@ -76,6 +76,10 @@ The feature map from the last convolutional layer is fed to an **ROI Pooling Lay
 
 ## **Stages of Fast R-CNN**
 
+
+![image](https://github.com/user-attachments/assets/f63fe757-bba3-4cb4-b4dc-98a0344b37e6)
+
+
 ### **1. Stage 1: Region Proposal Network (RPN)**
 
 #### **1.1 Backbone Network**
