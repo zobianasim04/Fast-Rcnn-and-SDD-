@@ -1,4 +1,4 @@
-# **Fast R-CNN and SSD**
+# **Fast R-CNN **
 
 ## **Why Fast R-CNN?**
 
