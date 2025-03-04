@@ -43,3 +43,9 @@ Unlike R-CNN, where multiple forward passes are needed for each object proposal,
 2. **Efficient Training:** Eliminates the need for separate SVM training and bounding box regression as both are learned in a single network.
 3. **Memory Efficient:** Avoids redundant storage of feature maps, reducing disk usage.
 4. **Faster Inference:** Object detection is significantly faster compared to R-CNN.
+**ARCHITECTURE OF FAST R-CNN**
+![image](https://github.com/user-attachments/assets/6fac4011-490d-48ae-84df-054ff122c490)
+
+
+
+
