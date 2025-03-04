@@ -32,7 +32,6 @@ Unlike R-CNN, where multiple forward passes are needed for each object proposal,
 ✅ **Memory Efficient:** Avoids redundant storage of feature maps, reducing disk usage.
 ✅ **Faster Inference:** Object detection is significantly faster compared to R-CNN.
 
----
 
 ## **Architecture of Fast R-CNN**
 
@@ -45,7 +44,6 @@ Unlike R-CNN, where multiple forward passes are needed for each object proposal,
 
 ![Fast R-CNN Architecture](https://github.com/user-attachments/assets/9351d8ac-b71f-4f6d-9145-74987fdfcffb)
 
----
 
 ## **CNN Network of Fast R-CNN**
 
@@ -64,7 +62,6 @@ Fast R-CNN uses pre-trained ImageNet networks (e.g., VGG-16), which contain:
 - Image (size = 224×224×3 for VGG-16)
 - Region proposals → Convolution feature map (size = 14×14×512 for VGG-16)
 
----
 
 ## **ROI Pooling Layer**
 
@@ -76,7 +73,6 @@ The feature map from the last convolutional layer is fed to an **ROI Pooling Lay
 - All values from all cells represent the **feature vector**.
 - If the grid size is **2×2**, the feature vector length is **4**.
 
----
 
 ## **Stages of Fast R-CNN**
 
@@ -103,7 +99,6 @@ The feature map from the last convolutional layer is fed to an **ROI Pooling Lay
 1. **Classification Loss:** Helps the model decide if the anchor is background or foreground.
 2. **Regression Loss:** Helps adjust the anchor boxes to fit the objects more precisely.
 
----
 
 ### **2. Stage 2: Object Classification and Box Refinement**
 
@@ -125,7 +120,6 @@ The feature map from the last convolutional layer is fed to an **ROI Pooling Lay
 #### **2.5 Multi-task Learning**
 1. The network in stage 2 learns both to predict object categories and refine bounding boxes at the same time.
 
----
 
 ### **3. Inference (Testing/Prediction Time)**
 
